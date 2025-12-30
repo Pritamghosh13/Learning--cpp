@@ -1,13 +1,20 @@
 #include <iostream>
 using namespace std;
-int main(){
-    int x,y,temp;
-    x = 12;
-    y = 45;
-    temp = x;
-    cout<<x<<" "<<y<<endl;
+
+void swap(int x, int y){
+    int temp = x;
     x = y;
     y = temp;
-    cout<<x<<" "<<y;
+    cout<<"After swap the numbers:"<<x<<" "<<y;
+}
+int main(){
+    int x,y;
+    cout<<"Enter the first number: ";
+    cin>>x;
+    cout<<"Enter the second number: ";
+    cin>>y;
+    cout<<"Before swap the numbers:"<<x<<" "<<y<<endl;
+    swap(x,y);
+
 
 }
