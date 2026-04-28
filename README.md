@@ -81,22 +81,6 @@ File Handling and Exception Handling
 STL (Standard Template Library)
 
 
-
----
-
-⚙ How to Run
-
-Compile and run any file using:
-
-g++ filename.cpp -o output
-./output
-
-Or, on Windows:
-
-g++ filename.cpp -o output.exe
-output.exe
-
-
 ---
 
 🧭 Goals
@@ -108,22 +92,6 @@ Master Object-Oriented Programming concepts
 Strengthen logic for competitive programming and projects
 
 Prepare for software or VLSI-related applications
-
-
-
----
-
-📚 Resources
-
-C++ Tutorial - 
-
-GeeksforGeeks C++ Programming
-
-cplusplus.com
-
-Book: Programming in C++ by Balagurusamy
-
-Book: C++ Primer by Stanley B. Lippman
 
 
 
